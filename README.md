@@ -2,7 +2,8 @@
 ## Introduction
 
 ## Description of Materials (illustrated)
-[Viewer](#viewers)
+- [Viewer](#viewers)
+- [Text editor (optional)](#text-editors)
 ## Code Example
 This shows the basics of scripting, it should include the 
 ```
@@ -22,15 +23,12 @@ default
 ## Installation instructions
 ### A Viewer is required to log in to SecondLife, choose either of these Viewers to get started with programming!
 #### Viewers
-[Firestorm Viewer] (https://www.firestormviewer.org/os/)
-[SecondLife Viewer] (https://secondlife.com/support/downloads/)
-
+- [Firestorm Viewer](https://www.firestormviewer.org/os/)
+- [SecondLife Viewer](https://secondlife.com/support/downloads/)
 ### A text editor is helpful for scripting outside of SecondLife
-
-[LSLEditor] (https://sourceforge.net/projects/lsleditor/)
-
-[Notepad++ import] (https://pastebin.com/maYqDNxT)
-
+#### Text Editors
+- [LSLEditor](https://sourceforge.net/projects/lsleditor/)
+- [Notepad++ import](https://pastebin.com/maYqDNxT)
 ## Examples of your Code
 ```
 Code example here
