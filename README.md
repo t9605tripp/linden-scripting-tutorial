@@ -1,6 +1,6 @@
 # Getting Started with the Linden Scripting Language
 ## Introduction
-This is an introduction to the Linden Scripting Language and how to use it on [Second Life](https://secondlife.com/). Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the [Second Life Marketplace](https://marketplace.secondlife.com/) for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money!
+This is an introduction to the Linden Scripting Language and how to use it on [Second Life](https://secondlife.com/). Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the [Second Life Marketplace](https://marketplace.secondlife.com/) for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money! This introduction assumes that you have minimal programming experience, with at least some knowledge about the keywords: *constants*, *events*, *flow control (i.e. if, while, return statements)*, *functions (also called methods)*, *operators*, *states*, *types*, *variables*, and *errors*
 
 ## Description of Materials (illustrated)
 To start scripting on Second Life you will need a Viewer, that's it! You can optinally download a text editor to write in the Linden Scripting Language while offline.
@@ -11,6 +11,8 @@ To start scripting on Second Life you will need a Viewer, that's it! You can opt
 
 ## Code Example
 The best beginner coding examples can be found on the [Linden Scripting Language Wiki](http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial). This wiki is the definitive source for all of the Linden Scripting Language, and should be referenced as your comprehensive resource after this tutorial.
+
+The following code is one of the most basic examples, and we will break it down 
 ```
 default
 {
