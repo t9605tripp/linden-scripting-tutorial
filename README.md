@@ -2,14 +2,15 @@
 ## Introduction
 This is an introduction to the Linden Scripting Language and how to use it on [Second Life](https://secondlife.com/). Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the [Second Life Marketplace](https://marketplace.secondlife.com/) for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money!
 
-
 ## Description of Materials (illustrated)
+To start scripting on Second Life you will need a Viewer, that's it! You can optinally download a text editor to write in the Linden Scripting Language while offline.
+
 - [Viewer](#viewers)
 - [Text editor (optional)](#text-editors)
 
 
 ## Code Example
-This shows the basics of scripting, it should include the 
+The best beginner coding examples can be found on the [Linden Scripting Language Wiki](http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial). This wiki is the definitive source for all of the Linden Scripting Language, and should be referenced as your comprehensive resource after this tutorial.
 ```
 default
 {
