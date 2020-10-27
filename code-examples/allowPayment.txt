@@ -1,0 +1,50 @@
+//This script lets you put an object into this object that it can sell for the specified price in Lindens
+// Give the first item in this object's inventory to anyone who pays the price
+ 
+integer price = 0;      // The price needed to purchase the item
+ 
+default
+{
+    state_entry() {
+        // Turn off pay options so no money can be received until we are ready
+        llSetPayPrice(PAY_HIDE, [PAY_HIDE ,PAY_HIDE, PAY_HIDE, PAY_HIDE]);
+        // Request Debit Permissions from the owner so refunds can be given
+        llRequestPermissions(llGetOwner(), PERMISSION_DEBIT);
+    }
+    
+    on_rez(integer p) {
+        llResetScript();
+        // Reset script on rezzing. Will thus register any change of owner.
+    }
+    
+    money(key id, integer amount)
+    // Some money has been received and has gone to this object's owner
+    {
+        if (amount < price)
+        {   // Customer has not paid enough
+            llInstantMessage(id, "That's not enough money.");
+            llGiveMoney(id, amount);   // Refund the money they paid
+            return;
+        }
+        if (amount > price) {   // Customer paid too much. Refund the excess
+            integer change = amount - price;
+            llInstantMessage(id, "You paid more than L$" + (string)price
+                + "  your change is L$" + (string)change );
+            llGiveMoney(id, change);
+        }
+        // Customer has paid at least the right amount. Give them the item.
+        string ItemName = llGetInventoryName(INVENTORY_OBJECT, 0);
+        llGiveInventory(id, ItemName);
+        llInstantMessage(id, "Please accept your purchase worth L$" + (string) price );
+    }
+    
+    run_time_permissions(integer perm) {
+        // If Debit permissions are granted, set up the pay price for this single-price vendor
+        if(perm & PERMISSION_DEBIT) {
+        // In practice, the following line would be preferable and almost fully guards against a wrong amount being paid
+        // except in the rare event that the price is changed while a transaction is in progress, or a user with a hacked viewer
+            llSetPayPrice(PAY_HIDE, [0 ,PAY_HIDE, PAY_HIDE, PAY_HIDE]);
+        }
+
+    }
+}
