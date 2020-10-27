@@ -50,7 +50,9 @@ The next ***event*** is ```touch_start(integer num_detected)``` which runs when 
 
 
 ## Installation instructions
+
 ### A Viewer is required to log in to SecondLife, choose either of these Viewers to get started with programming!
+
 #### Viewers
 - [Firestorm Viewer](https://www.firestormviewer.org/os/)
 - [SecondLife Viewer](https://secondlife.com/support/downloads/)
@@ -58,6 +60,7 @@ The next ***event*** is ```touch_start(integer num_detected)``` which runs when 
 Return to [Description of Materials](#description-of-materials)
 
 ### A text editor is helpful for scripting outside of SecondLife
+
 #### Text Editors
 - [LSLEditor](https://sourceforge.net/projects/lsleditor/)
 - [Notepad++ import](https://pastebin.com/maYqDNxT)
