@@ -12,8 +12,10 @@ To start scripting on Second Life you will need a Viewer and an account on Secon
 
 Download either Viewer and then make an account to get started.
 
-## Coding In Second Life
-Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically. Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since you start in a tutorial, you will need to try it out until you can move around and work the third-person camera. Then travel to a place that allows you to make scripts. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to only affected yourself. *Insert place to go here*
+## Start Coding In Second Life
+Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically. Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since you start in a tutorial, you will need to try it out until you can move around and work the third-person camera. Then travel to a place that allows you to make scripts. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to prevent server issues. *Insert place to go here*
+
+After arriving and finding a good place to start working, 
 
 
 
@@ -38,7 +40,7 @@ default
 ``` 
 
 The first keyword ```default``` is a ***state***. To start, you only need to use the ```default``` state which makes the script run whenever the associated object is interacted with by an ***event***. In this example, there are two events. The first, ```state_entry()``` is run when the object enters the ```default``` state. This means that it will run when the script is saved after editing, or is entered by another method changing the script state to default. Throughout this tutorial only the default state will be used. Inside the ```state_entry``` event, there is a ***function*** called ```llSay(integer channel, string message)``` which takes an integer that represents where the message should be sent, and a string containing the message to send.
-The next ***event*** is ```touch_start(integer num_detected)``` which runs when the object that the script is in is first touched. Whenever it is touched then it will run the ```llSay()``` function. 
+The next ***event*** is ```touch_start(integer num_detected)``` which runs when the object that the script is in is first touched. Whenever it is touched then it will run the ```llSay()``` function.
 
 
 ## Installation instructions
@@ -58,10 +60,31 @@ Return to [Description of Materials](#description-of-materials)
 Code example here
 ```
 ## FAQs
+
+- **Q:** Does it matter where I go to test scripts?
+
+- **A:** The only differences will be the ratings approved for the sim. There are three different content levels called general, mature, and adult which changes what you are allowed to see and show while in that place. Otherwise, there are no differences between where you pick to start scripting.
+
+- **Q:**
+
+- **A:**
+
 ## Troubleshooting
+
+Most issues will be related to installation, so view the provided guides on installation or account creation provided by the website that was linked for more help with those problems.
+
+If there is a problem with your script not running, then it is likely related to the place you are inside because not all places allow scripts to be run by anyone.
+
+If you don't place an object into the world from your inventory or create a new object, then you cannot run it's scripts.
+
 ## How to Contribute
+
 Offer some changes on this [GitHub.](https://github.com/t9605tripp/linden-scripting-tutorial)
+
 ## Licensing
+
 [MIT License](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/LICENSE)
+
 ## Instructions for Use
-Hopefully you can use the skills gained from this documentation to start selling scripts on [Second Life](https://secondlife.com/)
+
+Hopefully you can use the skills gained from this documentation to start selling scripts on [Second Life!](https://secondlife.com/)
