@@ -1,6 +1,6 @@
 # Getting Started with the Linden Scripting Language
 ## Introduction
-This is an introduction to the [Linden Scripting Language](http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial) and how to use it on [Second Life](https://secondlife.com/). Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the [Second Life Marketplace](https://marketplace.secondlife.com/) for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money! This introduction assumes that you have minimal programming experience, with at least some knowledge about the keywords: *constants*, *events*, *flow control (i.e. if, while, return statements)*, *functions (also called methods)*, *operators*, *states*, *types*, *variables*, and *errors*
+This is an introduction to the [Linden Scripting Language](http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial) and how to use it on [Second Life](https://secondlife.com/). Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the [Second Life Marketplace](https://marketplace.secondlife.com/) for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money! This introduction assumes that you have minimal programming experience, with at least some knowledge about the keywords: *constants*, *events*, *flow control (i.e. if, while, return statements)*, *functions (also called methods)*, *operators*, *states*, *types*, *variables*, and *errors*.
 
 ## Materials Needed
 To start scripting on Second Life you will need a Viewer and an account on Second Life, that's it! A Viewer is the application that allows you to play the game, there are two popular choices with links to the download listed under the Viewer section. You can optinally download a text editor to write in the Linden Scripting Language while offline.
@@ -67,9 +67,9 @@ Code example here
 
 - **A:** The only differences will be the ratings approved for the sim. There are three different content levels called general, mature, and adult which changes what you are allowed to see and show while in that place. Otherwise, there are no differences between where you pick to start scripting.
 
-- **Q:**
+- **Q:** How do I get to a place where I can start scripting?
 
-- **A:**
+- **A:** You need to search for Happy Hippo Building School and teleport there to start building your first object and script.
 
 ## Troubleshooting
 
