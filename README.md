@@ -17,7 +17,7 @@ Every script in Second Life works with or on created objects. You can make a scr
 
 
 
-After arriving and finding a good place to start working, 
+After arriving and finding a good place to start working, create an object. In my case, I made a cube.
 
 
 
