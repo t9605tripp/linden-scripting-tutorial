@@ -71,11 +71,8 @@ Code example here
 ## FAQs
 
 - **Q:** Does it matter where I go to test scripts?
-
 - **A:** The only differences will be the ratings approved for the sim. There are three different content levels called general, mature, and adult which changes what you are allowed to see and show while in that place. Otherwise, there are no differences between where you pick to start scripting.
-
 - **Q:** How do I get to a place where I can start scripting?
-
 - **A:** You need to search for Happy Hippo Building School and teleport there to start building your first object and script.
 
 ## Troubleshooting
