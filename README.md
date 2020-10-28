@@ -62,9 +62,11 @@ Return to [Description of Materials](#description-of-materials)
 #### Recommended Text Editors
 
 - [LSLEditor](https://sourceforge.net/projects/lsleditor/)
+
 - [Notepad++ LSL keyword import](https://pastebin.com/maYqDNxT)
 
 ## Examples of my Code
+
 [Basic payment script](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/code-examples/allowPayment)
 This script will allow you to store an object within another object, then when another user clicks the ```Pay``` action, they will send you money to receive the item. Like a vending machine that never runs out of stock, but only carries one item!
 
@@ -73,9 +75,10 @@ This script uses three different objects to display a button that when clicked w
 
 ## FAQs
 
-- **Q:** Does it matter where I go to test scripts?
+- **Q:** *Does it matter where I go to test scripts?*
 - **A:** The only differences will be the ratings approved for the sim. There are three different content levels called general, mature, and adult which changes what you are allowed to see and show while in that place. Otherwise, there are no differences between where you pick to start scripting.
-- **Q:** How do I get to a place where I can start scripting?
+
+- **Q:** *How do I get to a place where I can start scripting?*
 - **A:** You need to search for Happy Hippo Building School and teleport there to start building your first object and script.
 
 ## Troubleshooting
