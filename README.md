@@ -97,3 +97,4 @@ Offer some changes on this [GitHub.](https://github.com/t9605tripp/linden-script
 ## Instructions for Use
 
 Hopefully you can use the skills gained from this documentation to start selling scripts on [Second Life!](https://secondlife.com/)
+
