@@ -64,10 +64,12 @@ Return to [Description of Materials](#description-of-materials)
 #### Text Editors
 - [LSLEditor](https://sourceforge.net/projects/lsleditor/)
 - [Notepad++ import](https://pastebin.com/maYqDNxT)
-## Examples of your Code
-```
-Code example here
-```
+## Examples of my Code
+[Basic payment script](https://github.com/t9605tripp/linden-scripting-tutorial/tree/main/code-examples/allowPayments.txt)
+This script will allow you to store an object within another object, then when another user clicks the ```Pay``` action, they will send you money to receive the item. Like a vending machine that never runs out of stock, but only carries one item!
+
+[Basic Head up display]()
+
 ## FAQs
 
 - **Q:** Does it matter where I go to test scripts?
