@@ -1,0 +1,49 @@
+//A basic Heads Up Display (HUD), these scripts should be put into separate objects that are overlayed.
+//Right click the object in your inventory then Attach to HUD->Center to attach as a user should see it.
+//create three cubes and put these scripts into one of each.
+//link the two cubes that you should shape into buttons, then link them to the main cube.
+//by touching one of the buttons, it will trigger the other button to whisper the player.
+//you can use this a template to do many things! it is essentially a tutorial on communication between objects.
+
+//In order to edit the linked items, you must rezz it as an object not attached to yourself
+
+//use a cube object to host this script
+//The basic object, a rectangle that will be the background for the HUD buttons
+default
+{
+    state_entry()
+    {
+        llSetScale(<0.01, 1.0, 1.0>);
+    }
+}
+
+//use a cube object to host this script
+//Creates another rectangle that is used as a button
+default
+{
+    state_entry()
+    {
+        llSetScale(<0.01, 0.5, 0.25>);
+    }
+    on_rez(integer start_param) {
+    }
+    //when it receives a message, it will whisper the person that touched the other button!
+    link_message(integer source, integer num, string msg, key id){
+        llWhisper(0, msg + " (" + (string)id + ") touched me!");
+    }
+}
+
+//use a cube object to host this script
+//creates another rectangle that is used as a button
+default
+{
+    //ensures it is a rectangle
+    state_entry()
+    {
+        llSetScale(<0.01, 0.5,0.25>);
+    }
+    //when touched it will message all linked objects
+    touch_start(integer num){
+        llMessageLinked(LINK_ALL_OTHERS, 0, llGetScriptName(), "xpButton");
+    }
+}
