@@ -68,7 +68,8 @@ Return to [Description of Materials](#description-of-materials)
 [Basic payment script](https://github.com/t9605tripp/linden-scripting-tutorial/tree/main/code-examples/allowPayments.txt)
 This script will allow you to store an object within another object, then when another user clicks the ```Pay``` action, they will send you money to receive the item. Like a vending machine that never runs out of stock, but only carries one item!
 
-[Basic Head up display]()
+[Basic Head up display](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/code-examples/basicHUD)
+This script uses three different objects to display a button that when clicked will make another button to send a message.
 
 ## FAQs
 
