@@ -19,9 +19,7 @@ Download either Viewer and then make an account to get started.
 ## Start Coding In Second Life
 Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically. Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since you start in a tutorial, you will need to try it out until you can move around and work the third-person camera. Then travel to a place that allows you to make scripts. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to prevent server issues. One of the most popular places to do this is the [Happy Hippo Building School (G Rated)](http://maps.secondlife.com/secondlife/Pandorus/96/129/30)
 
-
-
-After arriving and finding a good place to start working, create an object. In my case, I made a cube.
+After arriving and finding a good place to start working, create an object. In my case, I made a cube. Every object should contain the following code example, but you should also try out setting up the [other examples](#examples-of-my-code) provided in this tutorial.
 
 
 
@@ -61,9 +59,11 @@ Return to [Description of Materials](#description-of-materials)
 
 ### A text editor is helpful for scripting outside of SecondLife
 
-#### Text Editors
+#### Recommended Text Editors
+
 - [LSLEditor](https://sourceforge.net/projects/lsleditor/)
-- [Notepad++ import](https://pastebin.com/maYqDNxT)
+- [Notepad++ LSL keyword import](https://pastebin.com/maYqDNxT)
+
 ## Examples of my Code
 [Basic payment script](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/code-examples/allowPayment)
 This script will allow you to store an object within another object, then when another user clicks the ```Pay``` action, they will send you money to receive the item. Like a vending machine that never runs out of stock, but only carries one item!
