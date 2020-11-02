@@ -14,7 +14,9 @@ To start scripting on Second Life you will need a Viewer and an account on Secon
 1. Finally, Log in to the Viewer using your new SecondLife account information
 
 ### Firestorm Viewer Login Screen
-![Login Page](../images/login_screen.png)
+![Login Page](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/images/login_screen.png)
+
+[//]: # (../images/login_screen.png)
 
 ## Start Coding In Second Life
 Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to prevent server issues. A good place to start is the [Happy Hippo Building School (G Rated)](http://maps.secondlife.com/secondlife/Pandorus/96/129/30). Follow these instructions to get there.
@@ -22,19 +24,27 @@ Before beginning to script it is necessary to travel to a place that allows you 
 - In the top right corner of the window, type in "happy hippo" and hit enter.
 - Find the same result as the one in the image then click the Teleport button to go there.
 
-![Travelling](../images/inked_travel.jpg)
+![Travelling](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/images/inked_travel.jpg)
+
+[//]: # (../images/inked_travel.jpg)
 
 - After arriving, walk into the grassy area then click on the Build Button located at the top left of the screen, then select Build from the dropdown.
 
-![Building](../images/build.png)
+![Building](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/images/build.png)
+
+[//]: # (../images/build.png)
 
 - Now click anywhere on the ground to create an object, the default build setting will make a cube.
 
-![Object Creation](../images/object_creation.png)
+![Object Creation](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/images/object_creation.png)
+
+[//]: # (../images/object_creation.png)
 
 - Then click on the Content tab and select New Script to create a script that is held within the object. 
 
-![New Script](../images/new_script.png)
+![New Script](https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/images/new_script.png)
+
+[//]: # (../images/new_script.png)
 
 - Continue to the next section to see what the contents of the New Script mean
 
