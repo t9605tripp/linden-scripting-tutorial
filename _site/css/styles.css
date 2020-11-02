@@ -1,0 +1,32 @@
+h1, h2 {
+	text-align: center;
+}
+
+nav {
+	background-color: #ffcc00;
+	color: #222222;
+}
+
+nav a:visited {
+	color: #222222;
+}
+
+h1 {
+	border: 5px solid #222222; 
+}
+
+h2 {
+	margin: auto;
+	border: 5px solid #ffcc00;
+	background-color: #222222;
+	color: white;
+}
+
+ul {
+	list-style-image: url(../images/sl_bullet.png);
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
