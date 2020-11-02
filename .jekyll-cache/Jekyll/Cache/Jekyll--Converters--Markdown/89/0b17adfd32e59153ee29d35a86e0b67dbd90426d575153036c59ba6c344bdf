@@ -1,15 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>README</title>
-	</head>
-	<body>
-		<nav>
-	<a href="https://student2.cs.appstate.edu/tripptd/ENG3695/linden-scripting-tutorial/_site/index.html">Home</a>
-	<a href="https://student2.cs.appstate.edu/tripptd/ENG3695/linden-scripting-tutorial/_site/README.html">Readme Page</a>
-</nav>
-		<h1 id="getting-started-with-the-linden-scripting-language">Getting Started with the Linden Scripting Language</h1>
+I"x$<h1 id="getting-started-with-the-linden-scripting-language">Getting Started with the Linden Scripting Language</h1>
 <h2 id="introduction">Introduction</h2>
 <p>This is an introduction to the <a href="http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial">Linden Scripting Language</a> and how to use it on <a href="https://secondlife.com/">Second Life</a>. Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the <a href="https://marketplace.secondlife.com/">Second Life Marketplace</a> for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money! This introduction assumes that you have minimal programming experience, with at least some knowledge about the keywords: <em>constants</em>, <em>events</em>, <em>flow control (i.e. if, while, return statements)</em>, <em>functions (also called methods)</em>, <em>operators</em>, <em>states</em>, <em>types</em>, <em>variables</em>, and <em>errors</em>.</p>
 
@@ -48,17 +37,14 @@
 <p><img src="../images/object_creation.png" alt="Object Creation" /></p>
 
 <ul>
-  <li>Then click on the Content tab and select New Script to create a script that is held within the object.</li>
+  <li>Every object should contain the following code example, but you should also try out setting up the <a href="#examples-of-my-code">other examples</a> provided in this tutorial.
+Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically.</li>
 </ul>
 
-<p><img src="../images/new_script.png" alt="New Script" /></p>
+<h2 id="code-example">Code Example</h2>
+<p>The best beginner coding examples can be found on the <a href="http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial">Linden Scripting Language Wiki (LSL Wiki)</a>. This wiki is the definitive source for all of the Linden Scripting Language, and should be referenced as your comprehensive resource after this tutorial.</p>
 
-<ul>
-  <li>Continue to the next section to see what the contents of the New Script mean</li>
-</ul>
-
-<h2 id="code-example-and-breakdown">Code Example and Breakdown</h2>
-<p>Every script in Second Life works with or on objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically. The New Script that you just created is one of the most basic examples that is default of all new scripts.</p>
+<p>The following code is one of the most basic examples of a script from the LSL Wiki.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>default
 {
@@ -78,8 +64,6 @@
 The next <strong><em>event</em></strong> is <code class="language-plaintext highlighter-rouge">touch_start(integer num_detected)</code> which runs when the object that the script is in is first touched. Whenever it is touched then it will run the <code class="language-plaintext highlighter-rouge">llSay()</code> function.</p>
 
 <h2 id="examples-of-my-code">Examples of my Code</h2>
-
-<p>To get more in-depth, you should also try out setting up the other examples provided in this tutorial.</p>
 
 <p><a href="https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/code-examples/allowPayment">Basic payment script</a>
 This script will allow you to store an object within another object, then when another user clicks the <code class="language-plaintext highlighter-rouge">Pay</code> action, they will send you money to receive the item. Like a vending machine that never runs out of stock, but only carries one item!</p>
@@ -110,17 +94,14 @@ This script uses three different objects to display a button that when clicked w
 
 <h2 id="faqs">FAQs</h2>
 
-<p><strong>Q:</strong> <strong><em>Are there more code examples that I can look at?</em></strong></p>
-
-<p><strong>A:</strong> The best beginner coding examples can be found on the <a href="http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial">Linden Scripting Language Wiki (LSL Wiki)</a>. This wiki is the definitive source for all of the Linden Scripting Language, and should be referenced as your comprehensive resource after this tutorial.</p>
-
-<p><strong>Q:</strong> <strong><em>Does it matter where I go to test scripts?</em></strong></p>
-
-<p><strong>A:</strong> The only differences will be the ratings approved for the sim. There are three different content levels called general, mature, and adult which changes what you are allowed to see and show while in that place. Otherwise, there are no differences between where you pick to start scripting.</p>
-
-<p><strong>Q:</strong> <strong><em>How do I get to a place where I can start scripting?</em></strong></p>
-
-<p><strong>A:</strong> You need to search for Happy Hippo Building School and teleport there to start building your first object and script.</p>
+<ul>
+  <li><strong>Q:</strong> <em>Does it matter where I go to test scripts?</em></li>
+  <li>
+    <p><strong>A:</strong> The only differences will be the ratings approved for the sim. There are three different content levels called general, mature, and adult which changes what you are allowed to see and show while in that place. Otherwise, there are no differences between where you pick to start scripting.</p>
+  </li>
+  <li><strong>Q:</strong> <em>How do I get to a place where I can start scripting?</em></li>
+  <li><strong>A:</strong> You need to search for Happy Hippo Building School and teleport there to start building your first object and script.</li>
+</ul>
 
 <h2 id="troubleshooting">Troubleshooting</h2>
 
@@ -142,6 +123,4 @@ This script uses three different objects to display a button that when clicked w
 
 <p>Hopefully you can use the skills gained from this documentation to start selling scripts on <a href="https://secondlife.com/">Second Life!</a></p>
 
-
-	</body>
-</html>
+:ET

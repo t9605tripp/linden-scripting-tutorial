@@ -1,15 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>README</title>
-	</head>
-	<body>
-		<nav>
-	<a href="https://student2.cs.appstate.edu/tripptd/ENG3695/linden-scripting-tutorial/_site/index.html">Home</a>
-	<a href="https://student2.cs.appstate.edu/tripptd/ENG3695/linden-scripting-tutorial/_site/README.html">Readme Page</a>
-</nav>
-		<h1 id="getting-started-with-the-linden-scripting-language">Getting Started with the Linden Scripting Language</h1>
+I"Ú%<h1 id="getting-started-with-the-linden-scripting-language">Getting Started with the Linden Scripting Language</h1>
 <h2 id="introduction">Introduction</h2>
 <p>This is an introduction to the <a href="http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial">Linden Scripting Language</a> and how to use it on <a href="https://secondlife.com/">Second Life</a>. Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the <a href="https://marketplace.secondlife.com/">Second Life Marketplace</a> for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money! This introduction assumes that you have minimal programming experience, with at least some knowledge about the keywords: <em>constants</em>, <em>events</em>, <em>flow control (i.e. if, while, return statements)</em>, <em>functions (also called methods)</em>, <em>operators</em>, <em>states</em>, <em>types</em>, <em>variables</em>, and <em>errors</em>.</p>
 
@@ -57,7 +46,7 @@
   <li>Continue to the next section to see what the contents of the New Script mean</li>
 </ul>
 
-<h2 id="code-example-and-breakdown">Code Example and Breakdown</h2>
+<h2 id="code-example">Code Example</h2>
 <p>Every script in Second Life works with or on objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically. The New Script that you just created is one of the most basic examples that is default of all new scripts.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>default
@@ -79,7 +68,7 @@ The next <strong><em>event</em></strong> is <code class="language-plaintext high
 
 <h2 id="examples-of-my-code">Examples of my Code</h2>
 
-<p>To get more in-depth, you should also try out setting up the other examples provided in this tutorial.</p>
+<p>, but you should also try out setting up the <a href="#examples-of-my-code">other examples</a> provided in this tutorial.</p>
 
 <p><a href="https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/code-examples/allowPayment">Basic payment script</a>
 This script will allow you to store an object within another object, then when another user clicks the <code class="language-plaintext highlighter-rouge">Pay</code> action, they will send you money to receive the item. Like a vending machine that never runs out of stock, but only carries one item!</p>
@@ -142,6 +131,4 @@ This script uses three different objects to display a button that when clicked w
 
 <p>Hopefully you can use the skills gained from this documentation to start selling scripts on <a href="https://secondlife.com/">Second Life!</a></p>
 
-
-	</body>
-</html>
+:ET
