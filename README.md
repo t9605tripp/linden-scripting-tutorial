@@ -9,17 +9,15 @@ This is an introduction to the [Linden Scripting Language](http://wiki.secondlif
 ## Materials Needed
 To start scripting on Second Life you will need a Viewer and an account on Second Life, that's it! A Viewer is the application that allows you to play the game, there are two popular choices with links to the download listed under the Viewer section. You can optinally download a text editor to write in the Linden Scripting Language while offline.
 
-- [Second Life Account](https://join.secondlife.com/)
-- [Viewer](#viewers)
-- [Text editor (optional)](#recommended-text-editors)
-- [Linden Scripting Language Documentation](http://wiki.secondlife.com/wiki/LSL_Portal)
-
-Download either Viewer (I recommend Firestorm) and then make an account to get started.
+- First, follow this link to create a [Second Life Account](https://join.secondlife.com/)
+- Next, follow this link and choose the recommended [Viewer](#viewers)
+- A text editor is optional, this tutorial will not use one but you may find it helpful if you practice after this tutorial [Text editor (optional)](#recommended-text-editors)
 
 ## Start Coding In Second Life
-Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically. Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since you start in a tutorial, you will need to try it out until you can move around and work the third-person camera. Then travel to a place that allows you to make scripts. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to prevent server issues. One of the most popular places to do this is the [Happy Hippo Building School (G Rated)](http://maps.secondlife.com/secondlife/Pandorus/96/129/30)
+Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since you start in a tutorial, you will need to try it out until you can move around and work the third-person camera. Then travel to a place that allows you to make scripts. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to prevent server issues. One of the most popular places to do this is the [Happy Hippo Building School (G Rated)](http://maps.secondlife.com/secondlife/Pandorus/96/129/30)
 
 After arriving and finding a good place to start working, create an object. In my case, I made a cube. Every object should contain the following code example, but you should also try out setting up the [other examples](#examples-of-my-code) provided in this tutorial.
+Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically.
 
 
 ## Code Example

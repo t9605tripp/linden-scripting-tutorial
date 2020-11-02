@@ -1,4 +1,4 @@
-I"¦<h1 id="getting-started-with-the-linden-scripting-language">Getting Started with the Linden Scripting Language</h1>
+I"Ñ"<h1 id="getting-started-with-the-linden-scripting-language">Getting Started with the Linden Scripting Language</h1>
 <h2 id="introduction">Introduction</h2>
 <p>This is an introduction to the <a href="http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial">Linden Scripting Language</a> and how to use it on <a href="https://secondlife.com/">Second Life</a>. Second Life is a massive multiplayer online game that allows users to program elements of the game while in game! This allows users to create objects or scripts and then sell them on the <a href="https://marketplace.secondlife.com/">Second Life Marketplace</a> for in-game currency called Linden Dollars (L$). Those Linden dollars can be exchanged for US Dollars (USD) and thus be a great way to both practice programming skills and make some money! This introduction assumes that you have minimal programming experience, with at least some knowledge about the keywords: <em>constants</em>, <em>events</em>, <em>flow control (i.e. if, while, return statements)</em>, <em>functions (also called methods)</em>, <em>operators</em>, <em>states</em>, <em>types</em>, <em>variables</em>, and <em>errors</em>.</p>
 
@@ -6,18 +6,16 @@
 <p>To start scripting on Second Life you will need a Viewer and an account on Second Life, thatâ€™s it! A Viewer is the application that allows you to play the game, there are two popular choices with links to the download listed under the Viewer section. You can optinally download a text editor to write in the Linden Scripting Language while offline.</p>
 
 <ul>
-  <li><a href="https://join.secondlife.com/">Second Life Account</a></li>
-  <li><a href="#viewers">Viewer</a></li>
-  <li><a href="#text-editors">Text editor (optional)</a></li>
-  <li><a href="http://wiki.secondlife.com/wiki/LSL_Portal">Linden Scripting Language Documentation</a></li>
+  <li>First, follow this link to create a <a href="https://join.secondlife.com/">Second Life Account</a></li>
+  <li>Next, follow this link and choose the recommended <a href="#viewers">Viewer</a></li>
+  <li>A text editor is optional, this tutorial will not use one but you may find it helpful if you practice after this tutorial <a href="#recommended-text-editors">Text editor (optional)</a></li>
 </ul>
 
-<p>Download either Viewer and then make an account to get started.</p>
-
 <h2 id="start-coding-in-second-life">Start Coding In Second Life</h2>
-<p>Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically. Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since you start in a tutorial, you will need to try it out until you can move around and work the third-person camera. Then travel to a place that allows you to make scripts. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to prevent server issues. One of the most popular places to do this is the <a href="http://maps.secondlife.com/secondlife/Pandorus/96/129/30">Happy Hippo Building School (G Rated)</a></p>
+<p>Before beginning to script it is necessary to travel to a place that allows you to start scripting. Since you start in a tutorial, you will need to try it out until you can move around and work the third-person camera. Then travel to a place that allows you to make scripts. Since scripts can be malicious to other users in extreme cases and can take up a lot of the memory used by the simulation, they are often relegated to places that will contain the script functionality to prevent server issues. One of the most popular places to do this is the <a href="http://maps.secondlife.com/secondlife/Pandorus/96/129/30">Happy Hippo Building School (G Rated)</a></p>
 
-<p>After arriving and finding a good place to start working, create an object. In my case, I made a cube.</p>
+<p>After arriving and finding a good place to start working, create an object. In my case, I made a cube. Every object should contain the following code example, but you should also try out setting up the <a href="#examples-of-my-code">other examples</a> provided in this tutorial.
+Every script in Second Life works with or on created objects. You can make a script that can be placed inside many different kinds of objects, or tailor your object to work for your script specifically.</p>
 
 <h2 id="code-example">Code Example</h2>
 <p>The best beginner coding examples can be found on the <a href="http://wiki.secondlife.com/wiki/A_Basic_LSL_Tutorial">Linden Scripting Language Wiki (LSL Wiki)</a>. This wiki is the definitive source for all of the Linden Scripting Language, and should be referenced as your comprehensive resource after this tutorial.</p>
@@ -42,7 +40,9 @@
 The next <strong><em>event</em></strong> is <code class="language-plaintext highlighter-rouge">touch_start(integer num_detected)</code> which runs when the object that the script is in is first touched. Whenever it is touched then it will run the <code class="language-plaintext highlighter-rouge">llSay()</code> function.</p>
 
 <h2 id="installation-instructions">Installation instructions</h2>
+
 <h3 id="a-viewer-is-required-to-log-in-to-secondlife-choose-either-of-these-viewers-to-get-started-with-programming">A Viewer is required to log in to SecondLife, choose either of these Viewers to get started with programming!</h3>
+
 <h4 id="viewers">Viewers</h4>
 <ul>
   <li><a href="https://www.firestormviewer.org/os/">Firestorm Viewer</a></li>
@@ -52,24 +52,34 @@ The next <strong><em>event</em></strong> is <code class="language-plaintext high
 <p>Return to <a href="#description-of-materials">Description of Materials</a></p>
 
 <h3 id="a-text-editor-is-helpful-for-scripting-outside-of-secondlife">A text editor is helpful for scripting outside of SecondLife</h3>
-<h4 id="text-editors">Text Editors</h4>
+
+<h4 id="recommended-text-editors">Recommended Text Editors</h4>
+
 <ul>
-  <li><a href="https://sourceforge.net/projects/lsleditor/">LSLEditor</a></li>
-  <li><a href="https://pastebin.com/maYqDNxT">Notepad++ import</a>
-    <h2 id="examples-of-your-code">Examples of your Code</h2>
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Code example here
-</code></pre></div>    </div>
-    <h2 id="faqs">FAQs</h2>
+  <li>
+    <p><a href="https://sourceforge.net/projects/lsleditor/">LSLEditor</a></p>
   </li>
   <li>
-    <p><strong>Q:</strong> Does it matter where I go to test scripts?</p>
+    <p><a href="https://pastebin.com/maYqDNxT">Notepad++ LSL keyword import</a></p>
   </li>
+</ul>
+
+<h2 id="examples-of-my-code">Examples of my Code</h2>
+
+<p><a href="https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/code-examples/allowPayment">Basic payment script</a>
+This script will allow you to store an object within another object, then when another user clicks the <code class="language-plaintext highlighter-rouge">Pay</code> action, they will send you money to receive the item. Like a vending machine that never runs out of stock, but only carries one item!</p>
+
+<p><a href="https://github.com/t9605tripp/linden-scripting-tutorial/blob/main/code-examples/basicHUD">Basic Head up display</a>
+This script uses three different objects to display a button that when clicked will make another button to send a message.</p>
+
+<h2 id="faqs">FAQs</h2>
+
+<ul>
+  <li><strong>Q:</strong> <em>Does it matter where I go to test scripts?</em></li>
   <li>
     <p><strong>A:</strong> The only differences will be the ratings approved for the sim. There are three different content levels called general, mature, and adult which changes what you are allowed to see and show while in that place. Otherwise, there are no differences between where you pick to start scripting.</p>
   </li>
-  <li>
-    <p><strong>Q:</strong> How do I get to a place where I can start scripting?</p>
-  </li>
+  <li><strong>Q:</strong> <em>How do I get to a place where I can start scripting?</em></li>
   <li><strong>A:</strong> You need to search for Happy Hippo Building School and teleport there to start building your first object and script.</li>
 </ul>
 
@@ -92,4 +102,5 @@ The next <strong><em>event</em></strong> is <code class="language-plaintext high
 <h2 id="instructions-for-use">Instructions for Use</h2>
 
 <p>Hopefully you can use the skills gained from this documentation to start selling scripts on <a href="https://secondlife.com/">Second Life!</a></p>
+
 :ET
